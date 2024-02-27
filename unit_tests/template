@@ -1,0 +1,17 @@
+#include "MyVector.h"
+#include "test_utils.hpp"
+#include <ctime>
+#include <stdlib.h>
+#include <vector>
+
+int main(const int argc, const char **argv) {
+  return test_wrapper(argc, argv, []() {
+    time_t seed;
+    srand(time(&seed));
+
+    MyVector<int> your_vect;
+    vector<int> test_vect;
+
+    return true;
+  });
+}

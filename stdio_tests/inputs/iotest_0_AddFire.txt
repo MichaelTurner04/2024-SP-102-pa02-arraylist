@@ -1,0 +1,17 @@
+"Cleric", "Cheesemonger", "Gambler"
+ADD "Baker" 3
+FIRE 1
+ADD "Olympian" 3
+FIRE 3
+FIRE "Gambler"
+FIRE 1
+ADD "Psychologist" 1
+ADD "Consultant" 0
+ADD "Streamer" 3
+ADD "Metalsmith" 2
+ADD "Baker" 5
+FIRE 1
+FIRE "Metalsmith"
+ADD "Mathematician" 2
+ADD "Brain Surgeon" 1
+ADD "Reporter" 3

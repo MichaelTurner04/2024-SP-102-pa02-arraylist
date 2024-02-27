@@ -1,0 +1,33 @@
+"Garbageman", "Coal Miner", "Psychologist"
+GUILT
+ADD "Babysitter" 1
+GUILT
+ADD "Cheesemonger" 3
+ADD "Banker" 2
+DISEASE
+ADD "Baker" 0
+ADD "Dentist" 0
+ADD "Shelf Stocker" 2
+SLEPT_IN 3
+ADD "Cheesemonger" 0
+DISEASE
+ADD "Cleric" 0
+ADD "Sculpter" 0
+ADD "Cashier" 1
+ADD "Farmer" 0
+SLEPT_IN 3
+ADD "Demolitionist" 1
+ADD "A/C Repairman" 2
+ADD "Fry Cook" 1
+ADD "A/C Repairman" 4
+DISEASE
+ADD "Olympian" 0
+FIRE "Olympian"
+ADD "Baker" 0
+DISEASE
+ADD "Weatherman" 0
+GUILT
+FIRE "Weatherman"
+ADD "Mathematician" 0
+DISEASE
+ADD "Pilot" 0

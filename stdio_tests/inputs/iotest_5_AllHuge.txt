@@ -1,0 +1,351 @@
+"A/C Repairman", "Reporter", "Pharmacist"
+ADD "CEO" 1
+ADD "Pilot" 0
+ADD "CEO" 5
+FIRE "Pilot"
+SLEPT_IN 1
+ADD "Cleric" 1
+ADD "Cheesemonger" 3
+ADD "Actor" 2
+SLEPT_IN 4
+ADD "Mathematician" 3
+FIRE "Mathematician"
+ADD "Store Clerk" 1
+ADD "Cashier" 1
+ADD "Fireman" 3
+SLEPT_IN 3
+ADD "Cashier" 3
+ADD "Demolitionist" 4
+ADD "Baker" 5
+FIRE 2
+AUDIT "Demolitionist"
+ADD "Architect" 0
+DISEASE
+ADD "Metalsmith" 0
+ADD "Consultant" 1
+ADD "Package Handler" 2
+ADD "Gambler" 0
+DISEASE
+ADD "Mathematician" 0
+CAR_CRASH 0
+DISEASE
+AUDIT "Taxman"
+GUILT
+ADD "Streamer" 0
+ADD "Director" 0
+ADD "Shelf Stocker" 2
+ADD "Lawyer" 2
+FIRE 0
+FIRE 0
+FIRE "Lawyer"
+ADD "Paramedic" 1
+AUDIT "Paramedic"
+ADD "Store Clerk" 2
+ADD "Fireman" 3
+FIRE 2
+ADD "Zookeeper" 2
+GUILT
+ADD "Cashier" 2
+DISEASE
+ADD "Gambler" 0
+ADD "Consultant" 1
+ADD "Dentist" 2
+CAR_CRASH 1
+ADD "Babysitter" 0
+ADD "Taxman" 1
+ADD "Farmer" 2
+GUILT
+CAR_CRASH 2
+FIRE 1
+ADD "A/C Repairman" 0
+ADD "Olympian" 1
+ADD "Babysitter" 0
+ADD "Pharmacist" 1
+ADD "Dentist" 2
+FIRE "Babysitter"
+FIRE 0
+FIRE 1
+FIRE 0
+GUILT
+ADD "Clown" 0
+ADD "Babysitter" 2
+AUDIT "Clown"
+ADD "Consultant" 1
+ADD "Babysitter" 3
+FIRE 1
+SLEPT_IN 3
+ADD "A/C Repairman" 0
+ADD "Actor" 0
+ADD "Janitor" 0
+ADD "Pilot" 2
+CAR_CRASH 2
+ADD "Brain Surgeon" 2
+ADD "Store Clerk" 1
+ADD "Paramedic" 2
+ADD "A/C Repairman" 3
+ADD "Dentist" 2
+ADD "Paramedic" 4
+ADD "Farmer" 1
+DISEASE
+ADD "Streamer" 0
+DISEASE
+ADD "Professor" 0
+ADD "Sculpter" 1
+ADD "Actor" 1
+ADD "Magician" 1
+ADD "Zookeeper" 2
+ADD "Fry Cook" 0
+ADD "Paramedic" 6
+CAR_CRASH 5
+ADD "Coal Miner" 4
+ADD "Shelf Stocker" 5
+ADD "Zookeeper" 4
+FIRE 1
+FIRE "Actor"
+CAR_CRASH 5
+ADD "Babysitter" 4
+ADD "Construction Worker" 3
+ADD "Package Handler" 5
+ADD "Consultant" 1
+FIRE 8
+CAR_CRASH 0
+ADD "Mathematician" 0
+GUILT
+ADD "Pilot" 0
+FIRE 1
+FIRE 0
+ADD "Pharmacist" 0
+ADD "Professor" 1
+ADD "Mortician" 2
+ADD "Baker" 1
+ADD "Cashier" 4
+ADD "Farmer" 0
+ADD "Mortician" 6
+GUILT
+ADD "Mayor" 3
+FIRE "Pharmacist"
+CAR_CRASH 6
+ADD "Director" 5
+AUDIT "Sculpter"
+FIRE 3
+ADD "Cheesemonger" 2
+ADD "Coal Miner" 0
+ADD "Cleric" 4
+ADD "Construction Worker" 7
+SLEPT_IN 1
+ADD "Pharmacist" 7
+SLEPT_IN 4
+GUILT
+FIRE "Mayor"
+ADD "Consultant" 2
+FIRE 3
+ADD "Chemist" 4
+ADD "Pilot" 4
+ADD "Garbageman" 2
+FIRE "Chemist"
+ADD "Psychologist" 7
+CAR_CRASH 3
+ADD "Fry Cook" 0
+FIRE "Mortician"
+ADD "Weatherman" 2
+ADD "Babysitter" 0
+ADD "Taxman" 1
+AUDIT "Babysitter"
+ADD "Package Handler" 4
+FIRE 0
+SLEPT_IN 2
+ADD "Mortician" 3
+DISEASE
+ADD "Lawyer" 0
+ADD "Package Handler" 0
+ADD "Fireman" 0
+ADD "Fireman" 2
+FIRE "Lawyer"
+FIRE 1
+FIRE 0
+ADD "Construction Worker" 0
+ADD "Fireman" 2
+ADD "Fry Cook" 3
+ADD "Sculpter" 2
+SLEPT_IN 3
+ADD "Coal Miner" 1
+ADD "Clown" 2
+FIRE "Fireman"
+ADD "Package Handler" 1
+CAR_CRASH 0
+ADD "Consultant" 0
+ADD "Director" 0
+ADD "Dentist" 0
+ADD "Magician" 3
+ADD "Psychologist" 4
+ADD "Babysitter" 2
+FIRE "Magician"
+ADD "Taxman" 3
+CAR_CRASH 0
+ADD "Consultant" 0
+GUILT
+FIRE "Consultant"
+GUILT
+ADD "Mortician" 0
+ADD "Brain Surgeon" 1
+SLEPT_IN 2
+ADD "Banker" 0
+ADD "Brain Surgeon" 1
+FIRE "Banker"
+ADD "Mathematician" 1
+ADD "Mayor" 1
+ADD "Cheesemonger" 3
+ADD "Reporter" 0
+ADD "Sculpter" 1
+FIRE 3
+ADD "A/C Repairman" 4
+SLEPT_IN 3
+GUILT
+ADD "Professor" 0
+FIRE "Mathematician"
+ADD "Store Clerk" 2
+ADD "Weatherman" 3
+FIRE 4
+FIRE 0
+FIRE 1
+AUDIT "Weatherman"
+ADD "Construction Worker" 0
+FIRE 1
+FIRE 1
+ADD "Cashier" 1
+ADD "Gambler" 1
+ADD "Chemist" 1
+ADD "Cheesemonger" 4
+ADD "Cleric" 5
+ADD "Reporter" 6
+FIRE "Cashier"
+ADD "Pharmacist" 5
+FIRE "Cleric"
+ADD "CEO" 5
+ADD "Fry Cook" 6
+FIRE 0
+FIRE "Reporter"
+AUDIT "Gambler"
+ADD "Magician" 1
+ADD "Cashier" 1
+AUDIT "Pharmacist"
+ADD "Banker" 0
+ADD "Olympian" 6
+ADD "Demolitionist" 5
+DISEASE
+ADD "Construction Worker" 0
+AUDIT "Zookeeper"
+CAR_CRASH 0
+ADD "A/C Repairman" 0
+FIRE 0
+DISEASE
+ADD "Sheriff" 0
+FIRE "Sheriff"
+ADD "Cheesemonger" 0
+ADD "Cleric" 1
+FIRE 0
+ADD "Baker" 1
+ADD "Mayor" 1
+GUILT
+CAR_CRASH 0
+ADD "Taxman" 0
+ADD "Cashier" 1
+SLEPT_IN 1
+SLEPT_IN 1
+ADD "Professor" 0
+ADD "Garbageman" 0
+ADD "Farmer" 0
+ADD "Lawyer" 0
+ADD "Taxman" 0
+ADD "Metalsmith" 5
+ADD "Cashier" 2
+GUILT
+ADD "Coal Miner" 4
+FIRE 4
+ADD "Banker" 2
+ADD "Fireman" 5
+FIRE "Garbageman"
+ADD "Director" 2
+ADD "Pilot" 8
+AUDIT "Lawyer"
+ADD "Taxman" 4
+ADD "Lawyer" 9
+GUILT
+SLEPT_IN 3
+ADD "Psychologist" 2
+ADD "Metalsmith" 2
+ADD "Professor" 9
+FIRE "Metalsmith"
+ADD "Pharmacist" 0
+ADD "Brain Surgeon" 7
+FIRE "Brain Surgeon"
+ADD "Cashier" 11
+ADD "Magician" 9
+ADD "Farmer" 1
+ADD "Dentist" 7
+SLEPT_IN 1
+ADD "Brain Surgeon" 7
+ADD "Director" 1
+ADD "Cashier" 13
+ADD "Farmer" 2
+FIRE 9
+GUILT
+CAR_CRASH 15
+ADD "Store Clerk" 10
+FIRE 11
+ADD "Weatherman" 1
+ADD "Psychologist" 2
+ADD "Artist" 8
+ADD "Streamer" 3
+GUILT
+ADD "Baker" 9
+ADD "Construction Worker" 18
+ADD "Director" 15
+ADD "Fireman" 6
+ADD "Mathematician" 17
+ADD "Janitor" 12
+ADD "Paramedic" 25
+ADD "Janitor" 5
+ADD "Pharmacist" 20
+SLEPT_IN 3
+ADD "Paramedic" 25
+FIRE "Farmer"
+ADD "Cashier" 15
+ADD "Store Clerk" 0
+FIRE 21
+ADD "Fry Cook" 16
+ADD "Cheesemonger" 21
+FIRE 8
+ADD "Janitor" 19
+AUDIT "Pilot"
+ADD "Sheriff" 7
+ADD "Weatherman" 8
+GUILT
+ADD "Cheesemonger" 0
+CAR_CRASH 12
+ADD "Mortician" 0
+FIRE "Director"
+ADD "Musician" 7
+FIRE "Taxman"
+CAR_CRASH 7
+DISEASE
+ADD "Consultant" 0
+ADD "Zookeeper" 1
+FIRE 0
+ADD "Architect" 1
+ADD "Shelf Stocker" 0
+ADD "Chemist" 1
+ADD "Architect" 1
+ADD "Cheesemonger" 2
+ADD "Gambler" 3
+SLEPT_IN 2
+ADD "Chemist" 1
+FIRE 1
+CAR_CRASH 0
+ADD "Consultant" 0
+ADD "Consultant" 0
+CAR_CRASH 0
+ADD "Paramedic" 0
+CAR_CRASH 0
+ADD "Psychologist" 0
+ADD "Pharmacist" 1

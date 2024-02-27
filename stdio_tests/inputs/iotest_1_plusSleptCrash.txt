@@ -1,0 +1,26 @@
+"A/C Repairman", "CEO", "Construction Worker"
+ADD "Cleric" 3
+FIRE "CEO"
+ADD "Cheesemonger" 0
+ADD "Clown" 3
+SLEPT_IN 1
+ADD "Taxman" 3
+ADD "Janitor" 5
+CAR_CRASH 1
+SLEPT_IN 1
+ADD "Gambler" 0
+SLEPT_IN 1
+ADD "Coal Miner" 0
+ADD "Sheriff" 1
+CAR_CRASH 1
+ADD "Programmer" 0
+ADD "Demolitionist" 1
+ADD "Magician" 0
+CAR_CRASH 2
+CAR_CRASH 1
+ADD "Professor" 0
+SLEPT_IN 2
+ADD "Psychologist" 0
+ADD "Baker" 0
+ADD "Sculpter" 1
+SLEPT_IN 2

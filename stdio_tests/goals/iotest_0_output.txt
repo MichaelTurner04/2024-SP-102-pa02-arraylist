@@ -1,0 +1,18 @@
+William has successfully dodged eviction!
+
+10 Shifts Added
+6 Shifts Fired From
+0 Times Slept In
+0 Car Crashes
+0 Diseases Caught
+0 Times Recycled
+0 Times Audited
+
+William's Final Schedule:
+[ Consultant, Brain Surgeon, Psychologist, Reporter, Mathematician, Streamer, Baker, ]
+
+Schedule Capacity: 8
+
+Audit:
+Found job in schedule: 0
+Didn't find job in schedule: 0

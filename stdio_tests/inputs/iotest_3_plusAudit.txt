@@ -1,0 +1,41 @@
+"Mortician", "Artist", "Cleric"
+ADD "Director" 2
+ADD "Paramedic" 0
+ADD "Janitor" 4
+SLEPT_IN 4
+AUDIT "Cleric"
+ADD "Dentist" 0
+ADD "Baker" 1
+GUILT
+AUDIT "Dentist"
+ADD "CEO" 4
+ADD "Cheesemonger" 4
+GUILT
+FIRE 1
+AUDIT "CEO"
+SLEPT_IN 4
+ADD "Paramedic" 1
+ADD "Weatherman" 2
+AUDIT "Janitor"
+ADD "Mortician" 2
+FIRE 3
+ADD "Dentist" 1
+FIRE 3
+AUDIT "Reporter"
+ADD "Clown" 1
+SLEPT_IN 3
+ADD "Construction Worker" 1
+ADD "CEO" 1
+ADD "Artist" 0
+ADD "Reporter" 2
+ADD "Chemist" 3
+ADD "Olympian" 5
+ADD "Cheesemonger" 1
+ADD "Cleric" 7
+SLEPT_IN 3
+GUILT
+ADD "Pilot" 2
+ADD "Architect" 1
+SLEPT_IN 1
+ADD "Pharmacist" 3
+ADD "Pilot" 0

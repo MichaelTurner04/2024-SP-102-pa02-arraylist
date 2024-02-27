@@ -1,0 +1,19 @@
+ 
+William has successfully dodged eviction!
+
+15 Shifts Added
+1 Shifts Fired From
+5 Times Slept In
+4 Car Crashes
+0 Diseases Caught
+0 Times Recycled
+0 Times Audited
+
+William's Final Schedule:
+[ Psychologist, Coal Miner, ]
+
+Schedule Capacity: 8
+
+Audit:
+Found job in schedule: 0
+Didn't find job in schedule: 0

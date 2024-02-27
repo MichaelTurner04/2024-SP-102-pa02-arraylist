@@ -1,0 +1,19 @@
+William has successfully dodged eviction!
+
+43 Shifts Added
+16 Shifts Fired From
+4 Times Slept In
+3 Car Crashes
+2 Diseases Caught
+7 Times Recycled
+4 Times Audited
+
+William's Final Schedule:
+[ Architect, Reporter, Package Handler, ]
+
+Schedule Capacity: 4
+
+Audit:
+Found job in schedule: 0
+Didn't find job in schedule: 4
+

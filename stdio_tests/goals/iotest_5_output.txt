@@ -1,0 +1,19 @@
+William has successfully dodged eviction!
+
+218 Shifts Added
+59 Shifts Fired From
+16 Times Slept In
+19 Car Crashes
+10 Diseases Caught
+16 Times Recycled
+12 Times Audited
+
+William's Final Schedule:
+[ Psychologist, Pharmacist, Consultant, ]
+
+Schedule Capacity: 60
+
+Audit:
+Found job in schedule: 8
+Didn't find job in schedule: 4
+
