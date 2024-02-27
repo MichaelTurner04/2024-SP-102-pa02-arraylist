@@ -1,0 +1,13 @@
+image: fedora:latest
+
+generaltester:
+  script:
+  - dnf install -y file python3-pip python3-devel gcc diffutils ncurses gdb cppcheck clang-tools-extra cmake make g++ valgrind
+  - pip3 install python-Levenshtein
+  - bash grade.sh
+  timeout: 2 hours 30 minutes
+  artifacts:
+    when: always
+    paths:
+      - results.txt
+    expire_in: 1 month

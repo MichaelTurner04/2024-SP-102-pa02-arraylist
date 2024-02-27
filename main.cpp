@@ -17,7 +17,6 @@ Overloading operator syntax
 https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B
 */
 
-// USE THIS TO TEST, BUT REMOVE LATER
 #include "MyVector.h"
 #include <iostream>
 #include <string>
@@ -139,6 +138,13 @@ void output(MyVector<string> &schedule, int numADD, int numFIRE, int numSLEPT, i
   cout << "Found job in schedule: " << foundAUDIT << endl;
   cout << "Didn't find job in schedule: " << numAUDIT - foundAUDIT << endl;
 }
+
+/*
+YOU MAY USE THE SUGGESTED FUNCTIONS BELOW
+	OR ADD YOUR OWN AND EDIT THE MAIN ABOVE
+*/
+
+
 // add function - Inserts job in the given time slot
 // If timeslot >= len of MyVector is passed,
 // job is appended to the end.
@@ -159,14 +165,18 @@ void fire(MyVector<string> &theVector, int timeSlot) {
 
 }
 
+// Perform the "Sleep in" event
 void sleepIn(MyVector<string> &theVector, int time) {
 
 }
 
+// Perform the "Car crash" event
 void carCrash(MyVector<string> &theVector, int timeSlot) {
 
 }
 
+// Perform the "Disease" event
 void disease(MyVector<string> &theVector) {  }
 
+// Perform the "Guilt" event
 void guilt(MyVector<string> &theVector) {  }
