@@ -17,23 +17,23 @@ main.cpp should be modified to interpret and react to input using your built Arr
 Input will be a stream of lines that will give specific information about an event for William and how it will affect his schedule. 
 The first line of input will be a list of jobs that William will start his schedule with, separated by commas. The positions of the job in the list should match the position in William’s schedule, for example the first job that appears in input should be at index 0 in William’s schedule. The rest of the lines of input will be events that affect William’s schedule and they will follow this format:
 
-ADD <job> <timeslot> 
+ADD **job** **timeslot** 
 William gets a new job and adds it to his schedule. 
-<timeslot> is an integer relating to the position within William’s schedule arraylist, and <job> is a string beginning and ending with quotation marks.  For ADD specifically, the range of <timeslot> is from 0 to the amount of elements in William’s schedule, inclusively. <timeslot> for FIRE and CAR_CRASH have a range from 0 to the amount of element’s in William’s schedule minus 1, inclusively.
+**timeslot** is an integer relating to the position within William’s schedule arraylist, and **job** is a string beginning and ending with quotation marks.  For ADD specifically, the range of **timeslot** is from 0 to the amount of elements in William’s schedule, inclusively. **timeslot** for FIRE and CAR_CRASH have a range from 0 to the amount of element’s in William’s schedule minus 1, inclusively.
 
-FIRE (<job> OR <timeslot>) 
+FIRE (**job** OR **timeslot**) 
 William gets fired from one of his jobs. 
 If a job title is given instead of a timeslot, all instances of that job should be removed from William’s schedule.
 
-SLEPT_IN <time> 
+SLEPT_IN **time** 
 William accidentally sleeps in one morning and gets fired from the jobs he missed.
-<time> is an integer relating to how many shifts William slept through. All slept through shifts should be removed from William’s schedule. Removed shifts should start at index 0, going upwards.
+**time** is an integer relating to how many shifts William slept through. All slept through shifts should be removed from William’s schedule. Removed shifts should start at index 0, going upwards.
 
 
 
-CAR_CRASH <timeslot>
+CAR_CRASH **timeslot**
 William crashes his car and can’t make it to any jobs in his schedule for the rest of the day.
-<timeslot> is the position in William’s schedule where he crashes his car. Everything at and after the car crash should be removed from William’s schedule, e.g. CAR_CRASH 0 would remove everything from William’s schedule.
+**timeslot** is the position in William’s schedule where he crashes his car. Everything at and after the car crash should be removed from William’s schedule, e.g. CAR_CRASH 0 would remove everything from William’s schedule.
 
 
 DISEASE
@@ -44,9 +44,9 @@ GUILT
 William tracks his schedule on a piece of paper from which he adds more paper to when he runs out of space. Currently, he is using less paper than what he has and is feeling guilty about wasting the excess paper. 
 GUILT should call your vector’s shrink_to_fit function onto William’s schedule.
 
-AUDIT <job> 
+AUDIT **job** 
 William gets a letter from the IRS, yippee! They’re just checking for jobs in William’s schedule, since it seems his rapid job hopping and tremendous work ethic has caused some confusion on their end.
-<job> will be the string title of a job. Record the results of whether or not <job> is within William’s schedule.
+**job** will be the string title of a job. Record the results of whether or not **job** is within William’s schedule.
 
 **Example input:**
 
@@ -89,7 +89,7 @@ William has successfully dodged eviction!
 William’s Final Schedule:
 [ Fireman, Coal Miner, ]
 
-Schedule Capacity: 4
+Schedule Capacity: 2
 
 Audit:
 Found job in schedule: 0
