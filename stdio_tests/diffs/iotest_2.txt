@@ -1,0 +1,18 @@
+William has successfully dodged eviction!								William has successfully dodged eviction!
+
+20 Shifts Added												20 Shifts Added
+2 Shifts Fired From											2 Shifts Fired From
+2 Times Slept In											2 Times Slept In
+0 Car Crashes												0 Car Crashes
+5 Diseases Caught											5 Diseases Caught
+3 Times Recycled											3 Times Recycled
+0 Times Audited												0 Times Audited
+
+William's Final Schedule:										William's Final Schedule:
+[ Pilot, ]											   |	[ Garbageman, Coal Miner, Psychologist, ]
+
+Schedule Capacity: 1										   |	Schedule Capacity: 4
+
+Audit:													Audit:
+Found job in schedule: 0										Found job in schedule: 0
+Didn't find job in schedule: 0										Didn't find job in schedule: 0

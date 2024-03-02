@@ -40,8 +40,8 @@ int main(const int argc, const char **argv) {
 
     int y = rand() % 100;
     int z = rand() % x;
-    your_vect[x] = y; // is it a deep copy?
-    if (your_copy[x] == y) {
+    your_vect[z] = y; // is it a deep copy?
+    if (your_copy[z] == y) {
       cout << "Your vector's assignment operator function is a shallow copy "
               "(Changes made to the data within the original vector carry over "
               "to the copied vector. This should not happen.)"

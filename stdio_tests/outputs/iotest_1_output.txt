@@ -9,9 +9,9 @@ William has successfully dodged eviction!
 0 Times Audited
 
 William's Final Schedule:
-[ Psychologist, ]
+[ A/C Repairman, CEO, Construction Worker, ]
 
-Schedule Capacity: 8
+Schedule Capacity: 4
 
 Audit:
 Found job in schedule: 0

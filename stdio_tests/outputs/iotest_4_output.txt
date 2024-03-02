@@ -9,9 +9,9 @@ William has successfully dodged eviction!
 4 Times Audited
 
 William's Final Schedule:
-[ Architect, ]
+[ Pharmacist, Fireman, Musician, ]
 
-Schedule Capacity: 1
+Schedule Capacity: 4
 
 Audit:
 Found job in schedule: 0

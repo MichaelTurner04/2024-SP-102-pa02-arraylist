@@ -9,9 +9,9 @@ William has successfully dodged eviction!
 0 Times Audited
 
 William's Final Schedule:
-[ Pilot, ]
+[ Garbageman, Coal Miner, Psychologist, ]
 
-Schedule Capacity: 1
+Schedule Capacity: 4
 
 Audit:
 Found job in schedule: 0

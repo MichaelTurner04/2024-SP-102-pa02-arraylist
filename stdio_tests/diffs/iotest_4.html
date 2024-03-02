@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>diff</title>
+<meta name="Generator" content="Vim/8.0">
+<meta name="plugin-version" content="vim8.1_v2">
+<meta name="settings" content="whole_filler,use_css,no_foldcolumn,prevent_copy=,use_input_for_pc=fallback">
+<meta name="colorscheme" content="none">
+<style>
+<!--
+pre { font-family: monospace; color: #ffffff; background-color: #000000; }
+body { font-family: monospace; color: #ffffff; background-color: #000000; }
+* { font-size: 1em; }
+.Folded { color: #00ffff; background-color: #6c6c6c; padding-bottom: 1px; }
+.DiffAdd { color: #ffffff; background-color: #a8a8a8; padding-bottom: 1px; }
+.DiffChange { color: #000000; background-color: #a8a8a8; padding-bottom: 1px; }
+.DiffDelete { color: #000000; background-color: #a8a8a8; padding-bottom: 1px; }
+.DiffText { color: #ffffff; background-color: #6c6c6c; padding-bottom: 1px; font-weight: bold; }
+-->
+<!--
+table { table-layout: fixed; }
+html, body, table, tbody { width: 100%; margin: 0; padding: 0; }
+table, td, th { border: 1px solid; }
+td { vertical-align: top; }
+th, td { width: 50.0%; }
+td div { overflow: auto; }
+-->
+</style>
+</head>
+<body>
+<table id='vimCodeElement'>
+<tr>
+<th>stdio_tests/goals/iotest_4_output.txt</th>
+<th>stdio_tests/outputs/iotest_4_output.txt</th>
+</tr><tr>
+<td><div>
+<pre>
+<span class="Folded">+--  5 lines: William has successfully dodged eviction!-------------------------</span>
+3 Car Crashes
+2 Diseases Caught
+7 Times Recycled
+4 Times Audited
+
+William's Final Schedule:
+<span class="DiffChange">[ </span><span class="DiffText">Architect</span><span class="DiffChange">, ]                                                                  </span>
+
+<span class="DiffChange">Schedule Capacity: </span><span class="DiffText">1</span><span class="DiffChange">                                                            </span>
+
+Audit:
+Found job in schedule: 0
+Didn't find job in schedule: 4
+</pre>
+</div></td>
+<td><div>
+<pre>
+<span class="Folded">+--  5 lines: William has successfully dodged eviction!-------------------------</span>
+3 Car Crashes
+2 Diseases Caught
+7 Times Recycled
+4 Times Audited
+
+William's Final Schedule:
+<span class="DiffChange">[ </span><span class="DiffText">Pharmacist, Fireman, Musician</span><span class="DiffChange">, ]                                              </span>
+
+<span class="DiffChange">Schedule Capacity: </span><span class="DiffText">4</span><span class="DiffChange">                                                            </span>
+
+Audit:
+Found job in schedule: 0
+Didn't find job in schedule: 4
+</pre>
+</div></td>
+</tr>
+</table>
+</body>
+</html>
+<!-- vim: set foldmethod=manual : -->
+

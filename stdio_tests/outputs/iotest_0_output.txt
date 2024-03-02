@@ -1,17 +1,17 @@
 William has successfully dodged eviction!
 
-20 Shifts Added
-2 Shifts Fired From
-2 Times Slept In
+10 Shifts Added
+6 Shifts Fired From
+0 Times Slept In
 0 Car Crashes
-5 Diseases Caught
-3 Times Recycled
+0 Diseases Caught
+0 Times Recycled
 0 Times Audited
 
 William's Final Schedule:
-[ Pilot, ]
+[ Cleric, Cheesemonger, Gambler, ]
 
-Schedule Capacity: 1
+Schedule Capacity: 4
 
 Audit:
 Found job in schedule: 0
