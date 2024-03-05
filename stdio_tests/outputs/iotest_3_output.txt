@@ -14,5 +14,5 @@ William's Final Schedule:
 Schedule Capacity: 4
 
 Audit:
-Found job in schedule: 0
-Didn't find job in schedule: 5
+Found job in schedule: 1
+Didn't find job in schedule: 4

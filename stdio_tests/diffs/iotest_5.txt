@@ -14,5 +14,5 @@ William's Final Schedule:										William's Final Schedule:
 Schedule Capacity: 58										   |	Schedule Capacity: 4
 
 Audit:													Audit:
-Found job in schedule: 8									   |	Found job in schedule: 0
-Didn't find job in schedule: 4									   |	Didn't find job in schedule: 12
+Found job in schedule: 8									   |	Found job in schedule: 1
+Didn't find job in schedule: 4									   |	Didn't find job in schedule: 11

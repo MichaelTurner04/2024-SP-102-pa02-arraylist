@@ -31,7 +31,9 @@ void carCrash(MyVector<string> &theVector, int timeSlot);
 void disease(MyVector<string> &theVector);
 void guilt(MyVector<string> &theVector);
 
-void output(MyVector<string> &theVector, int numADD, int numFIRE, int numSLEPT, int numCRASH, int numDISEASE, int numGUILT, int numAUDIT, int foundAUDIT);
+void output(MyVector<string> &theVector, int numADD, int numFIRE, int numSLEPT,
+            int numCRASH, int numDISEASE, int numGUILT, int numAUDIT,
+            int foundAUDIT);
 
 int main() {
   MyVector<string> schedule;
@@ -117,13 +119,15 @@ int main() {
     }
   }
 
-  output(schedule, numADD, numFIRE, numSLEPT, numCRASH, numDISEASE, numGUILT, numAUDIT, foundAUDIT);
-  
+  output(schedule, numADD, numFIRE, numSLEPT, numCRASH, numDISEASE, numGUILT,
+         numAUDIT, foundAUDIT);
+
   return 0;
 }
 
-void output(MyVector<string> &schedule, int numADD, int numFIRE, int numSLEPT, int numCRASH, int numDISEASE, int numGUILT, int numAUDIT, int foundAUDIT)
-{
+void output(MyVector<string> &schedule, int numADD, int numFIRE, int numSLEPT,
+            int numCRASH, int numDISEASE, int numGUILT, int numAUDIT,
+            int foundAUDIT) {
   cout << "William has successfully dodged eviction!" << endl << endl;
   cout << numADD << " Shifts Added" << endl;
   cout << numFIRE << " Shifts Fired From" << endl;
@@ -141,42 +145,31 @@ void output(MyVector<string> &schedule, int numADD, int numFIRE, int numSLEPT, i
 
 /*
 YOU MAY USE THE SUGGESTED FUNCTIONS BELOW
-	OR ADD YOUR OWN AND EDIT THE MAIN ABOVE
+        OR ADD YOUR OWN AND EDIT THE MAIN ABOVE
 */
-
 
 // add function - Inserts job in the given time slot
 // If timeslot >= len of MyVector is passed,
 // job is appended to the end.
-void add(MyVector<string> &theVector, const string &jobTitle, int timeSlot) {
-
-}
+void add(MyVector<string> &theVector, const string &jobTitle, int timeSlot) {}
 
 // If he is fired from a specific job, it goes
 // through his schedule from back to front,
 // erasing each instance of that job from his schedule
-void fire(MyVector<string> &theVector, const string &jobTtile) {
-
-}
+void fire(MyVector<string> &theVector, const string &jobTtile) {}
 
 // If will is fired from a job in a specific time slot
 // it deletes that time slot from his schedule
-void fire(MyVector<string> &theVector, int timeSlot) {
-
-}
+void fire(MyVector<string> &theVector, int timeSlot) {}
 
 // Perform the "Sleep in" event
-void sleepIn(MyVector<string> &theVector, int time) {
-
-}
+void sleepIn(MyVector<string> &theVector, int time) {}
 
 // Perform the "Car crash" event
-void carCrash(MyVector<string> &theVector, int timeSlot) {
-
-}
+void carCrash(MyVector<string> &theVector, int timeSlot) {}
 
 // Perform the "Disease" event
-void disease(MyVector<string> &theVector) {  }
+void disease(MyVector<string> &theVector) {}
 
 // Perform the "Guilt" event
-void guilt(MyVector<string> &theVector) {  }
+void guilt(MyVector<string> &theVector) {}

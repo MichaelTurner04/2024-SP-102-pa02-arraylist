@@ -6,6 +6,7 @@
 // We're giving you these functions for free
 // and as a guide for the syntax.
 #include "MyVector.h"
+#include <vector>
 template <typename T> MyVector<T>::~MyVector() {
   //  clear();
   delete[] data;
@@ -52,7 +53,6 @@ template <typename T> T &MyVector<T>::front() { return data[0]; }
 
 template <typename T> T &MyVector<T>::back() { return data[num_elements - 1]; }
 
-
 // Another example: remember when writing an implementation in hpp,
 // return type first, then scope just before the function name.
 template <typename T> T &MyVector<T>::at(int index) {
@@ -84,52 +84,69 @@ Also implement the following functions:
 
 */
 
-template <typename T> void MyVector<T>::shrink_to_fit() {
-
-}
-
+template <typename T> void MyVector<T>::shrink_to_fit() {}
 
 template <typename T>
 const MyVector<T> &MyVector<T>::operator=(const MyVector<T> &rhs) {
-
-  /*
-	FINISH ME!
-  */
-
-  return *this;
+  if (this != &rhs) {
+    T *tmp = new T[rhs.max_elements];
+    for (int i = 0; i < rhs.num_elements; ++i) {
+      tmp[i] = rhs.data[i];
+    }
+    max_elements = rhs.max_elements;
+    num_elements = rhs.num_elements;
+    delete[] data;
+    data = tmp;
+  }
+  return (*this);
 }
-
 template <typename T> MyVector<T>::MyVector(const MyVector<T> &rhs) {
-
+  data = nullptr;
+  *this = rhs;
 }
 
 template <typename T>
 void MyVector<T>::insert(ArrayListIterator index, const T &value) {
-
+  for (int i = num_elements; i > index; --i) {
+    data[i] = data[i - 1];
+  }
+  data[index] = value;
+  num_elements += 1;
 }
 
 template <typename T> void MyVector<T>::erase(ArrayListIterator index) {
-
+  for (int i = index; i < num_elements; ++i) {
+    data[i] = data[i + 1];
+  }
+  if (num_elements > 0) {
+    max_elements -= 1;
+  }
 }
 
 // If `value` in list, returns the index of the first occurence of `value`
 // If `value` not in list, returns -1
 template <typename T> int MyVector<T>::find(const T &value) {
 
-	int find_index = -1;
+  int find_index = -1;
+  for (int i = 0; i < num_elements; ++i) {
+    if (data[i] == value) {
+      find_index = i;
+    }
+  }
 
-    /*
-		FINISH ME!
-    */
-
-	return find_index;
-
+  return find_index;
 }
 
-
-template <typename T> void MyVector<T>::clear() {  }
-
+template <typename T> void MyVector<T>::clear() { num_elements = 0; }
 
 template <typename T> void MyVector<T>::swap(MyVector<T> &other) {
-
+  T *temp = data;
+  data = other.data;
+  other.data = temp;
+  int tempMaxEl = max_elements;
+  max_elements = other.max_elements;
+  other.max_elements = tempMaxEl;
+  int tempNumEl = num_elements;
+  num_elements = other.num_elements;
+  other.num_elements = tempNumEl;
 }
